@@ -19,10 +19,30 @@
 
 
 def everything_for_your_cat(cats_data):
-    # Здесь нужно написать код
+    """
+Функция принимает на вход кортеж, формирует из него словарь,
+затем распаковывает словарь в строку.
+    :param cats_data: 
+    :return: our_str
+    """
+    dict = {}
+
+    for i in cats_data:
+        about_cat = ' ' + i[0] + ',' + ' ' + str(i[1])
+        about_people = i[2] + ' ' + i[3] + ':'
+
+        if about_people not in dict:
+            dict[about_people] = about_cat
+        else:
+            dict[about_people] += ';' + about_cat
+    our_str = ''.join([f'{key}{value}\n' for key, value in dict.items()])
+
+
     return our_str
 
+
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
+
 
 
 data = [[('Мартин', 5, 'Алексей', 'Егоров'),
@@ -62,6 +82,7 @@ data = [[('Мартин', 5, 'Алексей', 'Егоров'),
          ('Гарфилд', 3, 'Алексей', 'Егоров')],
         [], [('Гарфилд', 3, 'Алексей', 'Егоров')]
         ]
+
 
 test_data = ['''Алексей Егоров: Мартин, 5; Вася, 4
 Анна Самохина: Фродо, 3

@@ -7,7 +7,22 @@
 
 
 def repeats(our_str):
-    # Здесь нужно написать код
+    """
+    Функция принимает на вход строку, формирует из нее словарь, где ключи- символы строки, значения-
+    число, указывающее, сколько раз символ уже встречался в строке.
+
+    :param our_str: 
+    :return: new_str
+    """
+    dict_my = {}
+    new_str = ''
+    for item in our_str:
+        if item not in dict_my:
+            dict_my[item] = 1
+        else:
+            dict_my[item] += 1
+
+        new_str = new_str + item + '_' + str(dict_my[item])
     return new_str
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
