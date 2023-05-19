@@ -12,7 +12,14 @@ string = 'Hello'
 
 
 def global_changes():
-    pass
+    global number
+    number = 5
+    global string
+    string = 'Hello, dear friend'
+    return number, string
+global_changes()
+
+
 
 
 
