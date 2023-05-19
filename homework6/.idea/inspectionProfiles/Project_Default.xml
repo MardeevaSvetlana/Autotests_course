@@ -1,0 +1,52 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="selenium" />
+            <item index="1" class="java.lang.String" itemvalue="helpers" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E225" />
+          <option value="W391" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="filter.send_keys" />
+          <option value="str.date" />
+          <option value="str.strftime" />
+          <option value="list.send_keys" />
+          <option value="selenium.webdriver.chrome.remote_connection" />
+          <option value="atf.pytest_core" />
+          <option value="bytes.presence_of_element_located" />
+          <option value="bytes.element_to_be_clickable" />
+          <option value="helpers.datageneration" />
+          <option value="pages_inside.saby_pages.Appmarket" />
+          <option value="helpers.file_path" />
+          <option value="pages.main_page.get_filter.send_keys" />
+          <option value="str.send_keys" />
+          <option value="filter.send_keys_to_elevent" />
+          <option value="pages.main_page.get_product_value.text" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
