@@ -38,20 +38,15 @@ class Segment:
         Метод для определения того, пересекает ли отрезок ось абcцисс.
         :return: True, False
         """
-        if self.y1 * self.y2 < 0:
-            return True
-        else:
-            return False
+        return self.y1 * self.y2 < 0
 
     def y_axis_intersection(self):
         """
         Метод для определения того, пересекает ли отрезок ось ординат.
         :return: True, False
         """
-        if self.x1 * self.x2 < 0:
-            return True
-        else:
-            return False
+        return self.x1 * self.x2 < 0
+
 
 
 data = [Segment((2, 3), (4, 5)).length,

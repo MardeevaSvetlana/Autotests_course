@@ -2,7 +2,7 @@
 # Экземпляр класса создается из следующих атрибутов:
 #   1. brand - Марка транспорта
 #   2. ЗАЩИЩЕННЫЙ (protected) атрибут engine_power - Мощность двигателя
-#   3. year - Год выпускаe
+#   3. year - Год выпуска
 #   4. color - Цвет
 #   5. max_speed - Максимальная скорость
 # У класса должно быть СВОЙСТВО info, которое выводить на печать информацию о:
@@ -13,7 +13,7 @@
 #   1. passengers - кол-во пассажиров
 #   2. ПРИВАТНЫЙ (private) атрибут park - Парк приписки автобуса
 #   3. ЗАЩИЩЕННЫЙ (protected) атрибут fare - Стоимость проезда
-# Добавить свойство park, которое будет возвращать значение park
+#   Добавить свойство park, которое будет возвращать значение park
 # а при присвоении проверять номер парка, что он в диапазоне от 1000 до 9999
 #
 # III. Напишите класс Tram унаследованный от PublicTransport
@@ -25,49 +25,85 @@
 
 class PublicTransport:
 
-    def __init__(self, brand, engine_power, year, color, max_speed ):
-
+    def __init__(self, brand, engine_power, year, color, max_speed):
+        """
+        В конструкторе родительского класса задаем обязательные аргументы
+        :param brand:
+        :param engine_power:
+        :param year:
+        :param color:
+        :param max_speed:
+        """
         self.brand = brand
         self._engine_power = engine_power
         self.year = year
         self.color = color
         self.max_speed = max_speed
 
-    @property
+    @property  # Свойство класса, которое возвращает информацию: бренд, цвет, год выпуска, мощность двигателя.
     def info(self):
         return self.brand, self.color, self.year, self._engine_power
 
+    @property  # Свойство для инициализации защищенного (protected) атрибута engine_power - Мощность двигателя
+    def engine_power(self):
+        return self._engine_power
+
+
 class Bus(PublicTransport):
 
-    def __init__(self, brand, engine_power, year, color, max_speed, passengers, park, fare ):
+    def __init__(self, brand, engine_power, year, color, max_speed, passengers, park, fare):
+        """
+        В конструкторе дочернего класса задаем все обязательные атрибуты
+        :param brand:
+        :param engine_power:
+        :param year:
+        :param color:
+        :param max_speed:
+        :param passengers:
+        :param park:
+        :param fare:
+        """
         super().__init__(brand, engine_power, year, color, max_speed)
+        """ В конструкторе дочернего класса указываем атрибуты, которые заимствовали у класса-родителя."""
         self.passengers = passengers
         self.__park = park
         self._fare = fare
 
-    @property
+    @property  # Свойство для инициализации приватного (private) атрибута park - Парк приписки автобуса
     def park(self):
-        if 1000 <= self.__park <= 9999:
-            return self.__park
-        else:
-            return False
+        return self.__park
 
-    @park.setter
+    @park.setter  # Свойство для инициализации приватного (private) атрибута park - Парк приписки автобуса
+    # и проверки валидности атрибута
     def park(self, park):
         self.__park = park
+        assert 1000 <= self.__park <= 9999
 
 
 class Tram(PublicTransport):
 
     def __init__(self, brand, engine_power, year, color, max_speed, route, path, fare):
+        """
+        В конструкторе дочернего класса задаем все обязательные атрибуты
+        :param brand:
+        :param engine_power:
+        :param year:
+        :param color:
+        :param max_speed:
+        :param route:
+        :param path:
+        :param fare:
+        """
         super().__init__(brand, engine_power, year, color, max_speed)
+        """ В конструкторе дочернего класса указываем атрибуты, которые заимствовали у класса-родителя."""
         self.__route = route
         self.path = path
         self._fare = fare
 
-    @property
+    @property  # Свойство, которое вычисляет и возвращает время прохождения маршрута
     def how_long(self):
-        return self.max_speed/(4*self.path)
+        return self.max_speed / (4 * self.path)
+
 
 transport = PublicTransport('Автомобиль', 500, 2040, 'Фиолетовый', 300)
 first_bus = Bus('ЛиАЗ', 210, 2015, 'Зеленый', 100, 70, 1232, 32)
@@ -76,7 +112,7 @@ first_tram = Tram('71-931M', 125, 2010, 'Красный', 75, 5, 15, 32)
 second_tram = Tram('71-409-1', 240, 2018, 'Белый', 85, 7, 17, 32)
 
 assert isinstance(type(transport).info, property), 'В классе PublicTransport, info - не свойство класса'
-assert transport._engine_power, 'В классе PublicTransport, engine_power не защищенный атрибут'
+assert transport.engine_power, 'В классе PublicTransport, engine_power не защищенный атрибут'
 assert first_bus._Bus__park, 'В классе Bus, park не приватный атрибут'
 assert second_bus._fare, 'В классе Bus, fare не защищенный атрибут'
 assert first_tram._fare, 'В классе Tram, fare не защищенный атрибут'

@@ -22,25 +22,38 @@
 # 1337*32*9 = 385056
 class PersonInfo:
     def __init__(self, name, age, *dep):
+        """
+        В конструкторе класса задаем все обязательные аргументы
+        :param name:
+        :param age:
+        :param dep:
+        """
         self.name = name
         self.age = age
         self.dep = dep
 
-    def short_name(self):
-        list_name= self.name.split()
-        return list_name[1], list_name[0][0]+'.'
+    def short_name(self):  # Метод, возвращающий строку "Имя Фамилия" в необходимом формате
+        list_name = self.name.split()
+        tuple_name = list_name[1], list_name[0][0] + '.'
+        return ' '.join(tuple_name)
 
-    def path_deps(self):
+    @property
+    def path_deps(
+            self):  # Метод, возвращающий путь "Головное подразделение --> ... --> Конечное подразделение" в виде
+        # строки необходимого формата.
+
         return ' --> '.join(list(self.dep))
 
-
-    def new_salary(self):
+    def new_salary(self):  # Метод для расчета зп.
         str_dep = ''.join(list(self.dep))
-        top= ([str_dep.count(i) for i in str_dep])
-        sum_dep = (sum(sorted(set(top))[::-1][:3]))
-        return 1337* self.age*sum_dep
+        top = ([str_dep.count(item) for item in str_dep])
+        list_top = (sorted((set(top))))
+        if len(list_top) >= 3:
+            sum_dep = sum(list_top[:-4:-1])
+        else:
+            sum_dep = (sum(sorted(set(top))[::-1][:3])) + 1
 
-
+        return 1337 * self.age * sum_dep
 
 
 first_person = PersonInfo('Александр Шленский', 32, 'Разработка', 'УК', 'Автотесты')
@@ -48,7 +61,7 @@ fourth_person = PersonInfo('Иван Иванов', 26, 'Разработка')
 second_person = PersonInfo('Пётр Валерьев', 47, 'Разработка', 'УК')
 third_person = PersonInfo('Макар Артуров', 51, 'Разработка', 'УК', 'Нефункциональное тестирование', 'Автотестирование')
 
-data = {first_person.short_name,
+data = [first_person.short_name,
         second_person.short_name,
         third_person.short_name,
         fourth_person.short_name,
@@ -62,8 +75,7 @@ data = {first_person.short_name,
         second_person.new_salary,
         third_person.new_salary,
         fourth_person.new_salary
-        }
-
+        ]
 
 test_data = ['Шленский А.', 'Валерьев П.', 'Артуров М.', 'Иванов И.',
 
