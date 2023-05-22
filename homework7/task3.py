@@ -76,8 +76,8 @@ class Bus(PublicTransport):
     @park.setter  # Свойство для инициализации приватного (private) атрибута park - Парк приписки автобуса
     # и проверки валидности атрибута
     def park(self, park):
-        self.__park = park
         assert 1000 <= self.__park <= 9999
+        self.__park = park
 
 
 class Tram(PublicTransport):

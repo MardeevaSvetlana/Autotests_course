@@ -37,9 +37,7 @@ class PersonInfo:
         tuple_name = list_name[1], list_name[0][0] + '.'
         return ' '.join(tuple_name)
 
-    @property
-    def path_deps(
-            self):  # Метод, возвращающий путь "Головное подразделение --> ... --> Конечное подразделение" в виде
+    def path_deps(self):   # Метод, возвращающий путь "Головное подразделение --> ... --> Конечное подразделение" в виде
         # строки необходимого формата.
 
         return ' --> '.join(list(self.dep))
