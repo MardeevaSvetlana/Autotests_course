@@ -18,18 +18,21 @@ import unittest  # Не удалять
 
 
 def treatment_sum(our_tuple):
+    """
+    Функция принимает на вход кортеж. Пытается сложить два элемента и отлавливает исключения.
+    :param our_tuple:
+    :return: our_tuple[0] +our_tuple[1]
+    """
     try:
-        if len(our_tuple) == 2:
-            return our_tuple[0] + our_tuple[1]
-        else:
-            raise TypeError
+        s = our_tuple[0] +our_tuple[1]
+        if len(our_tuple) > 2:  # Если поступает больше двух элементов-генерируется исключение, код прекращает работу
+            raise Exception('Много данных')
+    except IndexError:
+        return 'Недостаточно данных'
     except TypeError:
-        if len(our_tuple) < 2:
-            return 'Недостаточно данных'
-        elif len(our_tuple) > 2:
-            return 'Много данных'
-        else:
-            return 'Нельзя сложить эти данные'
+        return 'Нельзя сложить эти данные'
+    else:
+        return s
 
 
 class MyTestCase(unittest.TestCase):
