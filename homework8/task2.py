@@ -8,7 +8,7 @@
 # 2) Если хотя бы одна сторона передана нулем или отрицательным числом,
 # то падаем с ValueError и текстом 'Стороны должны быть положительными'
 
-# 3) Если не соблюдается неравество треугольника,
+# 3) Если не соблюдается неравенство треугольника,
 # то Exception и текст "Не треугольник"
 
 # 4) Если передано не 3 аргумента, то IndexError "Передано {n} аргументов, а ожидается 3", где n - кол-во аргументов
@@ -16,25 +16,23 @@
 import unittest  # Не удалять
 
 
-class Trigon:
-    def __init__(self,*args):
+class Trigon:  # Создаем класс с неизвестным количеством обязательных атрибутов
+    def __init__(self, *args):
+        """
+        При инициализации проверяем переданные данные на корректность и генерируем исключения.
+        Ничего не возвращаем.
+        :param args:
+        """
         self.args = args
-
-        if str(args).isdigit() == False:
-            raise TypeError('Стороны должны быть числами')
-
+        n = len(args)
         if len(args) != 3:
-             raise IndexError("Передано", len(args), "аргументов, а ожидается 3")
-
-
-
-        if args[0]<=0 or args[1] <=0 or args[2]<=0:
-             raise ValueError('Стороны должны быть положительными')
-
-        if args[0] + args[1] <= args[2] and args[1] + args[2] <= args[0] and args[2] + args[0] <= args[1]:
-             raise Exception("Не треугольник")
-
-
+            raise IndexError(f'Передано {n} аргументов, а ожидается 3')
+        elif type(args[0]) != int or type(args[1]) != int or type(args[2]) != int:
+            raise TypeError('Стороны должны быть числами')
+        elif args[0] <= 0 or args[1] <= 0 or args[2] <= 0:
+            raise ValueError('Стороны должны быть положительными')
+        elif (args[0] + args[1]) <= args[2] or (args[1] + args[2]) <= args[0] or (args[2] + args[0]) <= args[1]:
+            raise Exception("Не треугольник")
 
 
 class MyTestCase(unittest.TestCase):
