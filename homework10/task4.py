@@ -2,22 +2,22 @@
 # 1) Фикстуру для класса и используйте её. Например, печать времени начала выполнения класса с тестами и окончания
 # 2) Фикстуру для конкретного теста и используйте её не для всех тестов. Например, время выполнения теста.
 
-from datetime import datetime
-import time
+
 
 import pytest
-import time
-from datetime import datetime
 
 
+def all_division(*arg1):
+    division = arg1[0]
+    for i in arg1[1:]:
+        division /= i
+    return division
+class Test:
 
-
-class Test():
-
-    def test1(current_time):
-        assert (2 + 4) == 6
-
-
+    def test1(self,current_time):
+        assert all_division(100, 2) == 50
 
     def test2(self):
-        assert (800/1) == 800
+        with pytest.raises(ZeroDivisionError):
+            all_division(100, 0)
+

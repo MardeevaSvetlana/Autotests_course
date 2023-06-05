@@ -17,6 +17,7 @@ import random
 
 
 
+
 def generate_random_name():
     while True:
         symbols_list = list(map(chr, range(97, 123)))  # Создаем список из латинских букв
