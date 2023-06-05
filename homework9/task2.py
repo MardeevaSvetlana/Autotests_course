@@ -7,7 +7,16 @@
 # https://docs.python.org/3/library/datetime.html
 #
 # Например
-# @func_log()
+@func_log(func1)
+def wrapper():
+
+
+
+
+def func1():
+    file_log= open('log.txt', 'w=')
+    return file_log
+
 # def func1():
 #     time.sleep(3)
 #
@@ -31,19 +40,31 @@
 # Реализовать без подключения новых модулей и сторонних библиотек.
 
 
-import datetime
-import time
+# import datetime
+# import time
+#
+# # Здесь пишем код
+# @func_log(file_log= 'log.txt' )
+# def func1():
+#     open()
+#     time.sleep(3)
+#
+# @func_log(file_log='func2.txt')
+# def func2():
+#     time.sleep(5)
+#
+# func1()
+# func2()
+# func1()
 
-# Здесь пишем код
-@func_log(file_log= 'log.txt' )
-def func1():
-    open()
-    time.sleep(3)
+def decor(func):
+    def wrapper():
+        print('Работа до вызова"')
+        func()
+        print('Работа после вызова')
+    return wrapper
 
-@func_log(file_log='func2.txt')
-def func2():
-    time.sleep(5)
-
-func1()
-func2()
-func1()
+def my_func():
+    print('работаю')
+f= decor(my_func)
+f()
