@@ -3,21 +3,16 @@ import time
 from datetime import datetime
 
 
-
-@pytest.fixture(scope='class')
+@pytest.fixture(scope='class')  # Фикстура, которая выводит время начала и окончания выполнения класса
 def current_time():
-    start_time = datetime.now().time()
-    print(f'\nВремя начала выполнения класса: {start_time}')
+    print(f'\nВремя начала выполнения класса: {datetime.now().time()}')
     yield
-    end_time = datetime.now().time()
-    print(f'\nВремя окончания выполнения класса: {end_time}')
-    return start_time, end_time
-
-@pytest.fixture
-def work_time(current_time):
-    global start_time, end_time
-    time_work = end_time - start_time
-    print(f'Время выполнения: {time_work}')
+    print(f'\nВремя окончания выполнения класса: {datetime.now().time()}')
 
 
-
+@pytest.fixture  # Фикстура, которая выводит время выполнения теста
+def work_time():
+    start_time = time.time()
+    yield
+    end_time = time.time()
+    print('\nПродолжительность теста: {:0.4} секунд\n'.format(end_time - start_time))
