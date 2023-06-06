@@ -32,18 +32,36 @@
 
 
 import datetime
-import time
 
-# Здесь пишем код
-@func_log(file_log= 'log.txt' )
+
+def func_log(file_log='log.txt'):  # декоратор принимает аргумент 'file_log'
+    def decorator_func_log(func):
+        def wrapper(*args, **kwargs):
+            time_start = datetime.datetime.now().strftime('%d.%m %H:%M:%S')  # получаем время вызова
+            log_message = f"{func.__name__} вызвана {time_start}\n"  # формируем строку для дозаписи
+
+            with open(file_log, mode='a+', encoding='utf-8') as log_file:  # пишем строку в 'file_log'
+                log_file.write(log_message)
+
+            return func(*args, **kwargs)
+
+        return wrapper
+
+    return decorator_func_log
+
+
+@func_log()
 def func1():
-    open()
-    time.sleep(3)
+    pass
 
-@func_log(file_log='func2.txt')
+
+@func_log('func2.txt')
 def func2():
-    time.sleep(5)
+    pass
+
 
 func1()
 func2()
 func1()
+
+
