@@ -3,6 +3,7 @@
 # Необходимо удалить все цифры и записать получившийся текст в файл test_file/task1_answer.txt
 
 
+
 story = open('test_file/task1_data.txt', 'r', encoding='utf-8')
 new_story = open('test_file/task1_answer.txt', mode='w+', encoding='utf-8')
 story1 = story.read()
