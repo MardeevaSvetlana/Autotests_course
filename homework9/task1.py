@@ -9,6 +9,7 @@ new_story = open('test_file/task1_answer.txt', mode='w+', encoding='utf-8')
 story1 = story.read()
 new_story.write(''.join((x for x in story1 if not x.isdigit())))
 new_story.close()
+story.close()
 
 
 with open("test_file/task1_answer.txt", 'r', encoding='utf-8') as file1:
