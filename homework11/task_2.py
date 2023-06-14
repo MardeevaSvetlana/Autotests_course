@@ -8,7 +8,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver import ActionChains
 from time import sleep
 
 browser = webdriver.Chrome()
@@ -43,7 +42,7 @@ try:
     assert browser.title == title_contacts, "Неверный заголовок страницы"
 
     print("Отправить сообщение самому себе")
-    search_field = browser.find_element(By.CSS_SELECTOR, ".controls-Field.controls-InputBase__nativeField_hideCustomPlaceholder")
+    search_field = browser.find_element(By.CSS_SELECTOR, ".sabyPage-MainLayout__search input")
     search_field.send_keys("Лисичкина Алиса", Keys.ENTER)
     sleep(2)  # ждём стабилизации страницы
     plus_btn = browser.find_element(By.CSS_SELECTOR, ".controls-Button__icon.icon-RoundPlus")
@@ -52,7 +51,7 @@ try:
     msg_field = browser.find_element(By.CSS_SELECTOR, ".textEditor_Viewer__Paragraph")
     msg_field.send_keys("Привет, Алиса. Как дела?")
     sleep(3)  # ждём стабилизации страницы
-    send_msg_btn = browser.find_element(By.CSS_SELECTOR, ".controls-BaseButton.controls-Button_filled_l")
+    send_msg_btn = browser.find_element(By.CSS_SELECTOR, '[title="Отправить"]')
     send_msg_btn.click()
     sleep(2)  # ждём отправки сообщения
 
@@ -62,16 +61,16 @@ try:
     assert find_msg.is_displayed(), "Сообщение не найдено"
 
     print("Удалить это сообщение и убедиться, что удалили")
-    find_msg.click()
+    find_msg = browser.find_elements(By.XPATH, "//*[contains(text(), msg_text)]")
+    find_msg[1].click()
     sleep(3)  # ждём загрузки окна сообщения
-    del_msg_icon = browser.find_element(By.CSS_SELECTOR, ".controls-Button__icon.icon-Erase")
+    del_msg_icon = browser.find_element(By.CSS_SELECTOR, '.controls-Button__icon.icon-Erase')
     del_msg_icon.click()
     sleep(3)  # ждём удаления и стабилизации страницы
-    # Не понимаю, почему падает
-    find_msg = browser.find_elements(By.XPATH, f"//*[contains(text(), '{msg_text}')]")
+    find_msg = browser.find_elements(By.XPATH, "//*[contains(text(), msg_text)]")
     assert len(find_msg) == 0, "Сообщение не удалилось"
 
-
+    print('Test passed successfully')
 finally:
     browser.quit()
 
