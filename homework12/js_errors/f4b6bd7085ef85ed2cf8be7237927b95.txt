@@ -1,0 +1,2 @@
+20-06-2023 09:52:00.469000;https://fix-cdn.sbis.ru/static/resources/TextEditor/slate.min.js?x_module=539c31065a1668de566f7863c5c984d6 0:186579 Uncaught Error: Cannot resolve a Slate point from DOM point: [object HTMLParagraphElement],0
+20-06-2023 09:52:00.472000;https://fix-cdn.sbis.ru/static/resources/React/third-party/react-dom/react-dom.min.js?x_module=6dec173f0af8ec80918194ccfab2613d 60:65 Uncaught TypeError: Cannot read properties of undefined (reading '0')

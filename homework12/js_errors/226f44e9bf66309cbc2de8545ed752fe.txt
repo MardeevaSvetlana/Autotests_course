@@ -1,0 +1,536 @@
+20-06-2023 20:02:08.103000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            feature-ctrl.toggleclearcache" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.104000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onsendmessage" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.104000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onsendmessagefail" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.104000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onaftersendmessage" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.105000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onnewmessage" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.105000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangemessage" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.105000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ondeletetheme" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.105000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onmovetheme" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.105000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onmovecontact" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.106000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onmovecontactgroup" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.106000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangecontactgroup" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.106000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangefolder" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.106000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangechat" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.106000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ondeletechat" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.107000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onadddeletetochat" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.107000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onnewfileversion" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.107000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onsendready" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.107000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onfilesprocessed" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.107000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onnewinvitefavoritecontacts" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.108000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onnewfavoritecontacts" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.108000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onrejectfavoritecontacts" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.108000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangethemes" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.108000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangetheme" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.108000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ondeletecontacts" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.109000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.oncreatecontacts" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.109000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onmovecontacts" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.109000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onlockchat" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.109000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onthemetransform" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.109000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onfilessign" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.110000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onsignfileinfoready" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.110000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.chats.onfavorite" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.110000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onsetsettings" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.111000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onmessagesetsubtheme" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.111000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onrestoretheme" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.111000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onviewdialogs" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.111000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onselecteddialogschange" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.111000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangecontacts" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.111000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ondeletecontactsmass" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.112000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.oneditcontacts" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.112000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.taglistchange" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.112000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.tagupdate" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.112000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.tagmarkchanged" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.113000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.tagmarkchangedfail" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.113000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangedocument" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.113000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onwakeup" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.114000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.channel.status" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.114000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.tabfilterschanged" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.114000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onpinmessage" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.115000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ontypingmessage" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.115000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onupdatefiledata" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.115000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.oncreatedraftmessage" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.115000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangechannelconnection" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.116000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.oncreatesignature" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.116000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onchangesignature" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.116000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ondeletesignature" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.116000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.themedocument" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.116000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onpinfile" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.117000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onunpinfile" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.117000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onpinlink" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.117000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onunpinlink" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.118000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onlinkattached" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.118000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onlinkdeleted" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.118000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.oncreatefilefolder" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.118000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.ondeletefilefolder" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.118000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onupdatefilefolder" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.119000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            contacts.onlinkfilefolder" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
+20-06-2023 20:02:08.119000;https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a 3:76076 "[STOMP][SubscribeError] call subscribe before Application initialization for
+            staff.on_cnange_mode_photo" "Error
+    at t.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:76204)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:87801)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:52695)
+    at e.subscribeIfReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:98091)
+    at e.subscribe (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:97352)
+    at onTransportReady (https://fix-cdn.sbis.ru/static/resources/Browser/online-superbundle.package.min.js?x_module=7b615489917825247e670b626391529a:4:96147)"
