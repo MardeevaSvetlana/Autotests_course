@@ -23,7 +23,6 @@ class Tasks_Online(Region):
     yes_btn = Element(By.CSS_SELECTOR, '[data-qa="controls-ConfirmationDialog__button-true"]', 'кнопка подтверждения ')
 
 
-
 class Test(TestCaseUI):
     def test(self):
         log('Перейти на страницу авторизации')
