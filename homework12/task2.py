@@ -74,6 +74,7 @@ class Test(TestCaseUI):
         tasks.delete_btn.click()
         tasks.yes_btn.should_be(Visible).click()
         tasks.new_folder.should_not_be(Visible)
+        
 
 
 

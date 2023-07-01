@@ -9,6 +9,7 @@ class AuthOnline(Region):
     password_inp = TextField(By.CSS_SELECTOR, '[name="Password"]', 'пароль')
 
 
+
 class ContactsOnline(Region):
     """ Описываем реестр Контакты"""
     search_field = TextField(By.CSS_SELECTOR, '.sabyPage-MainLayout__search input', 'строка поиска адресанта')
