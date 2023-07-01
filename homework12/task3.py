@@ -3,11 +3,13 @@ from atf import *
 
 
 class AuthOnline(Region):
+    """ Класс для авторизации"""
     login_inp = TextField(By.CSS_SELECTOR, '[name="Login"]', 'логин')
     password_inp = TextField(By.CSS_SELECTOR, '[name="Password"]', 'пароль')
 
 
 class TaskOnline(Region):
+    """ Описываем поля эталонной задачи"""
     executor_field = Element(By.CSS_SELECTOR, '.controls-SelectedCollection__item__caption-wrapper', 'поле "Исполнитель"')
     description_field = Element(By.CSS_SELECTOR, '[name="editorWrapper"]', 'поле "Описание"')
     author_field = Element(By.CSS_SELECTOR, '.edo3-Sticker__mainRow-container.edo3-Sticker--withoutPhoto', 'поле "Автор"')
@@ -15,6 +17,7 @@ class TaskOnline(Region):
 
 
 class Test(TestCaseUI):
+    """ Прописываем логику теста с помощью последоватеного вызова методов"""
     def test(self):
         log('Перейти на страницу авторизации')
         sbis_site = self.config.get('SBIS_SITE')
@@ -32,21 +35,18 @@ class Test(TestCaseUI):
         auth.password_inp.type_in(user_password + Keys.ENTER).should_be(Not(Visible))
 
         log('Открыть эталонную задачу по прямой ссылке в новой вкладке браузера')
-        my_task = self.config.get('MY TASK')
+        my_task = self.config.get('MY_TASK')
         self.browser.open(my_task)
 
         log('Убедиться, что в заголовке вкладки отображаются эталонные значения даты и номера ')
         self.browser.should_be(TitleExact('Задача №3 от 26.06.23'))
 
         log('Проверить, что поля: Исполнитель, дата, номер, описание и автор отображаются с эталонными значениями')
-        executor = TaskOnline(self.driver)
-        executor.executor_field.should_be(ExactText('Восточный Б.'))
-        description = TaskOnline(self.driver)
-        description.description_field.should_be(ExactText('Убрать танк из ворот цирка. Срочно!'))
-        author = TaskOnline(self.driver)
-        author.author_field.should_be(ExactText('Лисичкина А.А.'))
-        date = TaskOnline(self.driver)
-        date.date_field.should_be(ExactText('26 июн, пн'))
+        tasks = TaskOnline(self.driver)
+        tasks.executor_field.should_be(ExactText('Восточный Б.'))
+        tasks.description_field.should_be(ExactText('Убрать танк из ворот цирка. Срочно!'))
+        tasks.author_field.should_be(ExactText('Лисичкина А.А.'))
+        tasks.date_field.should_be(ExactText('26 июн, пн'))
 
 
 

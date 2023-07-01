@@ -1,21 +1,26 @@
+
 from atf.ui import *
 from atf import *
 
 
 class AuthOnline(Region):
+    """ Класс для авторизации"""
     login_inp = TextField(By.CSS_SELECTOR, '[name="Login"]', 'логин')
     password_inp = TextField(By.CSS_SELECTOR, '[name="Password"]', 'пароль')
 
 
 class ContactsOnline(Region):
+    """ Описываем реестр Контакты"""
     search_field = TextField(By.CSS_SELECTOR, '.sabyPage-MainLayout__search input', 'строка поиска адресанта')
     msg_field = TextField(By.CSS_SELECTOR, '.textEditor_Viewer__Paragraph', 'поле для ввода текста сообщения')
-    send_msg_btn = Element(By.CSS_SELECTOR, '[title="Ответить в последний диалог"]', 'кнопка отправки сообщения')
-    del_msg_icon = Element(By.CSS_SELECTOR, '.controls-BaseButton.controls-Button_ghost_xl',
+    send_msg_btn = Element(By.CSS_SELECTOR, '[title="Создать новый диалог"]', 'кнопка отправки сообщения')
+    msg_field_new = TextField(By.CSS_SELECTOR, '.msg-dialogs-item__content-inner.ws-flex-grow-1', 'сообщение')
+    del_msg_icon = Element(By.CSS_SELECTOR, '[data-qa="remove"]',
                            'кнопка удаления сообщения')
 
 
 class Test(TestCaseUI):
+    """ Прописываем логику теста с помощью последоватеного вызова методов"""
 
     def test(self):
         log('Перейти на страницу авторизации')
@@ -42,23 +47,21 @@ class Test(TestCaseUI):
         self.browser.should_be(UrlExact(contacts_page), TitleExact(contacts_title))
 
         log("Отправить сообщение самому себе")
-        search = ContactsOnline(self.driver)
-
-        msg = ContactsOnline(self.driver)
-        send_msg = ContactsOnline(self.driver)
-        search.search_field.type_in('Лисичкина Алиса' + Keys.ENTER, clear_txt=False).should_be\
+        contacts = ContactsOnline(self.driver)
+        contacts.search_field.type_in('Лисичкина Алиса' + Keys.ENTER, clear_txt=False).should_be\
             (ExactText('Лисичкина Алиса'))
-        msg.msg_field.type_in('Привет', clear_txt=False)
-        send_msg.send_msg_btn.click()
+        contacts.msg_field.type_in('Привет', clear_txt=False)
+        contacts.send_msg_btn.click()
 
         log("Убедиться в том, что сообщение появилось в реестре")
-        msg.msg_field.element('span').should_be(ExactText('Привет'))
+        contacts.msg_field.element('span').should_be(ExactText('Привет'))
 
         log('Удалить сообщение и убедиться в том, что удалили')
-        del_btn = ContactsOnline(self.driver)
-        msg.msg_field.click()
-        del_btn.del_msg_icon.click()
-        msg.msg_field.element('span').should_not_be(ExactText('Привет'))
+        contacts.msg_field_new.click()
+        contacts.del_msg_icon.click()
+        contacts.msg_field.element('span').should_not_be(ExactText('Привет'))
+
+
 
 
 

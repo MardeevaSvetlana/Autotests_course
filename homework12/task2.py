@@ -4,11 +4,13 @@ from atf import *
 
 
 class AuthOnline(Region):
+    """ Класс для авторизации"""
     login_inp = TextField(By.CSS_SELECTOR, '[name="Login"]', 'логин')
     password_inp = TextField(By.CSS_SELECTOR, '[name="Password"]', 'пароль')
 
 
 class Tasks_Online(Region):
+    """ Описываем реестр Задачи/Входящие"""
     folder_indox = TextField(By.CSS_SELECTOR, '.controls-FilterEditors__list-item-title', 'папка "Входящие"')
     marker_indox = Element(By.CSS_SELECTOR, '.controls-ListView__itemV_marker.controls-Grid__row-cell__content_baseline_default', 'маркер')
     counter_tasks = TextField(By.CSS_SELECTOR, '[data-qa="controls-EditorList__mainCounter"]', 'счетчик задач')
@@ -24,6 +26,7 @@ class Tasks_Online(Region):
 
 
 class Test(TestCaseUI):
+    """ Прописываем логику теста с помощью последоватеного вызова методов"""
     def test(self):
         log('Перейти на страницу авторизации')
         sbis_site = self.config.get('SBIS_SITE')
@@ -45,43 +48,32 @@ class Test(TestCaseUI):
         self.browser.open(tasks_page)
 
         log('Убедиться, что выделена папка "Входящие" и стоит маркер')
-        indox = Tasks_Online(self.driver)
-        indox.folder_indox.should_be(Visible), (ExactText("Входящие"))
-        marker = Tasks_Online(self.driver)
-        marker.marker_indox.should_be(Visible)
+        tasks = Tasks_Online(self.driver)
+        tasks.folder_indox.should_be(Visible), (ExactText("Входящие"))
+        tasks.marker_indox.should_be(Visible)
 
         log('Убедиться, что папка не пустая (в реестре есть задачи)')
-        count = Tasks_Online(self.driver)
-        count.counter_tasks.should_be(Visible)
+        tasks.counter_tasks.should_be(Visible)
 
         log('Перейти в другую папку, убедиться, что теперь она выделена, а со "Входящие" выделение снято')
-        another = Tasks_Online(self.driver)
-        another.another_folder.click()
-        marker.marker_indox.should_be(Visible)
+        tasks.another_folder.click()
+        tasks.marker_indox.should_be(Visible)
 
         log('Создать новую папку и перейти в неё')
-        plus = Tasks_Online(self.driver)
-        plus.plus_btn.should_be(Visible).click()
-        folder = Tasks_Online(self.driver)
-        folder.folder_btn.click()
-        folder_name = Tasks_Online(self.driver)
-        folder_name.folder_name_field.should_be(Visible).click().type_in('Моя новая папка')
-        save = Tasks_Online(self.driver)
-        save.save_btn.should_be(Visible).click()
-        new = Tasks_Online(self.driver)
-        new.new_folder.should_be(Visible).click()
+        tasks.plus_btn.should_be(Visible).click()
+        tasks.folder_btn.click()
+        tasks.folder_name_field.should_be(Visible).click().type_in('Моя новая папка')
+        tasks.save_btn.should_be(Visible).click()
+        tasks.new_folder.should_be(Visible).click()
 
         log('Убедиться, что она пустая')
-        tasks_no = Tasks_Online(self.driver)
-        tasks_no.no_tasks.should_be(Visible), (ExactText("В этой папке нет задач"))
+        tasks.no_tasks.should_be(Visible), (ExactText("В этой папке нет задач"))
 
         log('Удалить новую папку, проверить, что её нет в списке папок')
-        new.new_folder.mouse_over().context_click()
-        del_btn = Tasks_Online(self.driver)
-        del_btn.delete_btn.click()
-        yes = Tasks_Online(self.driver)
-        yes.yes_btn.should_be(Visible).click()
-        new.new_folder.should_not_be(Visible)
+        tasks.new_folder.mouse_over().context_click()
+        tasks.delete_btn.click()
+        tasks.yes_btn.should_be(Visible).click()
+        tasks.new_folder.should_not_be(Visible)
 
 
 
