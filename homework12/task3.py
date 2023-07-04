@@ -1,7 +1,7 @@
 from atf.ui import *
 from atf import *
 
-
+ 
 class AuthOnline(Region):
     """ Класс для авторизации"""
     login_inp = TextField(By.CSS_SELECTOR, '[name="Login"]', 'логин')

@@ -58,7 +58,7 @@ class Test(TestCaseUI):
         log('Перейти в другую папку, убедиться, что теперь она выделена, а со "Входящие" выделение снято')
         tasks.another_folder.click()
         tasks.marker_indox.should_be(Visible)
- 
+
         log('Создать новую папку и перейти в неё')
         tasks.plus_btn.should_be(Visible).click()
         tasks.folder_btn.click()
