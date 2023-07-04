@@ -8,7 +8,7 @@ class AuthOnline(Region):
     login_inp = TextField(By.CSS_SELECTOR, '[name="Login"]', 'логин')
     password_inp = TextField(By.CSS_SELECTOR, '[name="Password"]', 'пароль')
 
-
+ 
 
 class ContactsOnline(Region):
     """ Описываем реестр Контакты"""
