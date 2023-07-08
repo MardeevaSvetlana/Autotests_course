@@ -47,7 +47,7 @@ class Test(TestCaseUI):
         tasks.description_field.should_be(ExactText('Убрать танк из ворот цирка. Срочно!'))
         tasks.author_field.should_be(ExactText('Лисичкина А.А.'))
         tasks.date_field.should_be(ExactText('26 июн, пн'))
-  
+
 
 
 
