@@ -1,7 +1,7 @@
 
 from atf.ui import *
 from atf import *
- 
+
 
 class AuthOnline(Region):
     """ Класс для авторизации"""
