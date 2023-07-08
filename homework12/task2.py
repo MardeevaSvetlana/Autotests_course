@@ -6,7 +6,7 @@ class AuthOnline(Region):
     """ Класс для авторизации"""
     login_inp = TextField(By.CSS_SELECTOR, '[name="Login"]', 'логин')
     password_inp = TextField(By.CSS_SELECTOR, '[name="Password"]', 'пароль')
- 
+  
 
 class Tasks_Online(Region):
     """ Описываем реестр Задачи/Входящие"""
